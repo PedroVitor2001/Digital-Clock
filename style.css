@@ -1,6 +1,8 @@
 body {
     margin: 0;
-
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #clock-container {
@@ -11,8 +13,10 @@ body {
 }
 
 #clock {
-    font-family: monospace;
-    font-size: 0.5rem;
+    font-family: JetBrains Mono;
+    font-size: 6.5rem;
     font-weight: bold;
     text-align: center;
+    color: hsl(231, 21%, 19%);
+    backdrop-filter: blur(5px);
 }
